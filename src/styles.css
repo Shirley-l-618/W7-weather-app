@@ -1,0 +1,180 @@
+h1,
+h2 {
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+h1.title {
+  color: #668ba4;
+  font-size: 40px;
+}
+h2 {
+  color: #113f67;
+  padding: 0px;
+}
+.city-name {
+  font-size: 50px;
+}
+form {
+  display: block;
+  margin: 20px auto;
+}
+.body {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    67.6deg,
+    rgb(225, 242, 254) -2.8%,
+    rgb(193, 224, 250) 44.6%,
+    rgb(19, 116, 197) 102.4%
+  );
+  padding: 20px 40px;
+  width: 700px;
+  margin: 50px auto 10px auto;
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 10px 30px 50px rgba(154, 148, 131, 0.2);
+}
+
+.additional-info {
+  text-align: left;
+  font-size: 12px;
+  color: #113f67;
+  margin: 0 20px;
+}
+
+.citySearch {
+  display: inline-block;
+}
+
+.city-name {
+  text-transform: capitalize;
+}
+
+.date {
+  color: #113f67;
+  font-size: 12px;
+}
+
+.search-button {
+  border-color: #e5dcc3;
+  font-weight: 1000;
+  color: #113f67;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.temperature {
+  font-size: 80px;
+  color: #113f67;
+}
+
+.weather-icon {
+  color: #e5dcc3;
+  font-size: 80px;
+}
+
+.weather-icon-small {
+  color: #e5dcc3;
+  font-size: 40px;
+  text-align: center;
+}
+
+.week {
+  text-align: center;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ref {
+  color: #113f67;
+  text-decoration: none;
+}
+
+.ref:hover {
+  color: #113f67;
+  text-decoration: underline;
+}
+
+.temperature strong {
+  font-weight: 100;
+  font-size: 80px;
+  color: #113f67;
+  margin: 0;
+}
+
+.units {
+  font-weight: 100;
+  font-size: 20px;
+  position: relative;
+  top: -45px;
+}
+
+.footer {
+  color: #113f67;
+}
+
+.description {
+  font-size: 20px;
+  display: block;
+}
+
+.description::first-letter {
+  text-transform: capitalize;
+}
+
+.search {
+  border-color: #113f67;
+  border-radius: 2px;
+  border: 1px solid;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.conversion {
+  color: #aaa492;
+  text-decoration: none;
+}
+
+.conversion:hover {
+  color: #113f67;
+  text-decoration: underline;
+}
+
+.conversion.active {
+  color: #113f67;
+  cursor: default;
+}
+
+.conversion.active:hover {
+  color: #113f67;
+  text-decoration: none;
+}
+
+.forecast {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.forecast-temp {
+  font-size: 15px;
+}
+
+.line {
+  color: #aaa492;
+  margin-top: 0;
+}
+.upper {
+  color: #113f67;
+}
+
+.lower {
+  color: #113f67;
+}
