@@ -137,16 +137,6 @@ function handleSubmit(event) {
   citySearch(cityInputElement.value);
 }
 
-function showFahrenheit(event) {
-  event.preventDefault();
-  celsiusLink.classList.remove("active");
-  fahrenheitLink.classList.add("active");
-  let fahrenheitTemperature = Math.round(celsiusTemperature * (9 / 5) + 32);
-  let tempElement = document.querySelector("#temp");
-  tempElement.innerHTML = fahrenheitTemperature;
-  getForecast1(coord);
-}
-
 function showCelsius(event) {
   event.preventDefault();
   fahrenheitLink.classList.remove("active");
